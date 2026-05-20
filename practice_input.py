@@ -52,5 +52,7 @@ def get_name_and_age():
     # write your code here.
     name = input("What is your name? ")
     age = input("What is your age? ")
-    message = "Interesting! My name is also " + name + ", and I'm also " + age + " years old!"
+    x = name
+    y = age
+    message = "Interesting! My name is also " + x + ", and I'm also " + y + " years old!"
     print(message)
